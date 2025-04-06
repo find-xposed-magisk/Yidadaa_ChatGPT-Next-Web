@@ -241,12 +241,12 @@ export class ChatGPTApi implements LLMApi {
         // by default the o1/o3 models will not attempt to produce output that includes markdown formatting
         // manually add "Formatting re-enabled" developer message to encourage markdown inclusion in model responses
         // (https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/reasoning?tabs=python-secure#markdown-output)
-        requestPayload["messages"] = [
-          { role: "developer", content: "Formatting re-enabled" },
-          ...requestPayload["messages"],
-        ];
+        requestPayload["messages"].unshift({
+          role: "developer",
+          content: "Formatting re-enabled",
+        });
 
-        // O1 使用 max_completion_tokens 控制token数 (https://platform.openai.com/docs/guides/reasoning#controlling-costs)
+        // o1/o3 uses max_completion_tokens to control the number of tokens (https://platform.openai.com/docs/guides/reasoning#controlling-costs)
         requestPayload["max_completion_tokens"] = modelConfig.max_tokens;
       }
 
