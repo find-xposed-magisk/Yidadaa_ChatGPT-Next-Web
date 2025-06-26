@@ -4,6 +4,12 @@
   <img src="./docs/images/ent.svg" alt="icon"/>
 </a>
 
+<a href='https://302.ai/'>
+  <img src="./docs/images/302AI-banner-zh.jpg" width=400 alt="icon"/>
+</a>
+
+[302.AI](https://302.ai/) 是一个按需付费的AI应用平台，提供市面上最全的AI API和AI在线应用。
+
 <h1 align="center">NextChat</h1>
 
 一键免费部署你的私人 ChatGPT 网页应用，支持 Claude, GPT4 & Gemini Pro 模型。

@@ -4,7 +4,11 @@
   <img src="https://github.com/user-attachments/assets/83bdcc07-ae5e-4954-a53a-ac151ba6ccf3" width="1000" alt="icon"/>
 </a>
 
+<a href='https://302.ai/'>
+  <img src="./docs/images/302AI-banner-en.jpg" width=400 alt="icon"/>
+</a>
 
+[302.AI](https://302.ai/) is a pay-as-you-go AI application platform that offers the most comprehensive AI APIs and online applications available.
 
 
 <h1 align="center">NextChat</h1>
