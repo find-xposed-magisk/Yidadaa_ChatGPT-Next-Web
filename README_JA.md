@@ -2,7 +2,7 @@
 <img src="./docs/images/ent.svg" alt="プレビュー"/>
 
 <a href='https://302.ai/'>
-  <img src="./docs/images/302AI-banner-jp.jpg" width=400 alt="icon"/>
+  <img src="https://github.com/user-attachments/assets/6cf24233-1010-43e0-9a83-a11159866175" width=400 alt="icon"/>
 </a>
 
 [302.AI](https://302.ai/) は、オンデマンドで支払うAIアプリケーションプラットフォームで、最も安全なAI APIとAIオンラインアプリケーションを提供します。 

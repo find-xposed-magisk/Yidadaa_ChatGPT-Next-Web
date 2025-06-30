@@ -5,7 +5,7 @@
 </a>
 
 <a href='https://302.ai/'>
-  <img src="./docs/images/302AI-banner-zh.jpg" width=400 alt="icon"/>
+  <img src="https://github.com/user-attachments/assets/d8c0c513-1e18-4d3b-a2a9-ff3696aec0d4" width=400 alt="icon"/>
 </a>
 
 [302.AI](https://302.ai/) 是一个按需付费的AI应用平台，提供市面上最全的AI API和AI在线应用。
