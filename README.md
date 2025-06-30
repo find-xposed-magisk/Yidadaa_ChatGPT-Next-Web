@@ -40,7 +40,7 @@ English / [简体中文](./README_CN.md)
 
 </div>
 
-## Sponsor AI API 
+## Sponsor AI API
 <a href='https://302.ai/'>
   <img src="https://github.com/user-attachments/assets/a03edf82-2031-4f23-bdb8-bfc0bfd168a4" width="100%" alt="icon"/>
 </a>

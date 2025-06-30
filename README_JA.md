@@ -1,11 +1,6 @@
 <div align="center">
 <img src="./docs/images/ent.svg" alt="プレビュー"/>
 
-<a href='https://302.ai/'>
-  <img src="https://github.com/user-attachments/assets/6cf24233-1010-43e0-9a83-a11159866175" width=400 alt="icon"/>
-</a>
-
-[302.AI](https://302.ai/) は、オンデマンドで支払うAIアプリケーションプラットフォームで、最も安全なAI APIとAIオンラインアプリケーションを提供します。 
 
 <h1 align="center">NextChat</h1>
 
@@ -17,6 +12,14 @@
 
 
 </div>
+
+## Sponsor AI API
+<a href='https://302.ai/'>
+  <img src="https://github.com/user-attachments/assets/6cf24233-1010-43e0-9a83-a11159866175" width="100%" alt="icon"/>
+</a>
+
+[302.AI](https://302.ai/) は、オンデマンドで支払うAIアプリケーションプラットフォームで、最も安全なAI APIとAIオンラインアプリケーションを提供します。 
+
 
 ## 企業版
 
