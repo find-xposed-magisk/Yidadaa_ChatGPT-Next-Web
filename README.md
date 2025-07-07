@@ -369,11 +369,11 @@ SiliconFlow API URL.
 
 ### `AI302_API_KEY` (optional)
 
-302.AI Api Key.
+302.AI API Key.
 
 ### `AI302_URL` (optional)
 
-302.AI Api URL.
+302.AI API URL.
 
 ## Requirements
 
