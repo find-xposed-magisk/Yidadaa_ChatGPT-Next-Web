@@ -623,7 +623,7 @@ const tencentModels = [
   "hunyuan-vision",
 ];
 
-const moonshotModes = [
+const moonshotModels = [
   "moonshot-v1-auto",
   "moonshot-v1-8k",
   "moonshot-v1-32k",
@@ -821,7 +821,7 @@ export const DEFAULT_MODELS = [
       sorted: 8,
     },
   })),
-  ...moonshotModes.map((name) => ({
+  ...moonshotModels.map((name) => ({
     name,
     available: true,
     sorted: seq++,
