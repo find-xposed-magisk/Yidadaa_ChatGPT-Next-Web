@@ -43,7 +43,7 @@
   <img src="https://github.com/user-attachments/assets/a03edf82-2031-4f23-bdb8-bfc0bfd168a4" width="100%" alt="icon"/>
 </a>
 
-[302.AI](https://302.ai/)는 는 사용한 만큼만 비용을 지불하는 AI 애플리케이션 플랫폼으로, 다양한 AI API 및 온라인 애플리케이션을 제공합니다.
+[302.AI](https://302.ai/)는 사용한 만큼만 비용을 지불하는 AI 애플리케이션 플랫폼으로, 다양한 AI API 및 온라인 애플리케이션을 제공합니다.
 
 ## 🥳 NextChat iOS 버전 출시!
 
