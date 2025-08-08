@@ -239,7 +239,13 @@ export class ChatGPTApi implements LLMApi {
         // Please do not ask me why not send max_tokens, no reason, this param is just shit, I dont want to explain anymore.
       };
 
-      if (isO1OrO3) {
+      if (isGpt5) {
+  	// Remove max_tokens if present
+  	delete requestPayload.max_tokens;
+  	// Add max_completion_tokens (or max_completion_tokens if that's what you meant)
+  	requestPayload["max_completion_tokens"] = modelConfig.max_tokens;
+
+      } else if (isO1OrO3) {
         // by default the o1/o3 models will not attempt to produce output that includes markdown formatting
         // manually add "Formatting re-enabled" developer message to encourage markdown inclusion in model responses
         // (https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/reasoning?tabs=python-secure#markdown-output)
@@ -252,12 +258,9 @@ export class ChatGPTApi implements LLMApi {
         requestPayload["max_completion_tokens"] = modelConfig.max_tokens;
       }
 
-      if (isGpt5) {
-	requestPayload["max_completion_tokens"] = modelConfig.max_tokens;
-      }
 
       // add max_tokens to vision model
-      if (visionModel && !isO1OrO3) {
+      if (visionModel && !isO1OrO3 && ! isGpt5) {
         requestPayload["max_tokens"] = Math.max(modelConfig.max_tokens, 4000);
       }
     }
