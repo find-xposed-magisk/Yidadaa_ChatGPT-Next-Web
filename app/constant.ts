@@ -521,8 +521,8 @@ const openaiModels = [
   "gpt-5-chat",
   "gpt-5-mini",
   "gpt-5-nano",
-  "gpt-5"
-  "gpt-5-chat-2025-01-01-preview"
+  "gpt-5",
+  "gpt-5-chat-2025-01-01-preview",
   "gpt-4o",
   "gpt-4o-2024-05-13",
   "gpt-4o-2024-08-06",
