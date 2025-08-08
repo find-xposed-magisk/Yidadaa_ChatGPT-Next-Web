@@ -200,6 +200,7 @@ export class ChatGPTApi implements LLMApi {
       options.config.model.startsWith("o1") ||
       options.config.model.startsWith("o3") ||
       options.config.model.startsWith("o4-mini");
+    const isGpt5 =  options.config.model.startsWith("gpt-5");
     if (isDalle3) {
       const prompt = getMessageTextContent(
         options.messages.slice(-1)?.pop() as any,
@@ -249,6 +250,10 @@ export class ChatGPTApi implements LLMApi {
 
         // o1/o3 uses max_completion_tokens to control the number of tokens (https://platform.openai.com/docs/guides/reasoning#controlling-costs)
         requestPayload["max_completion_tokens"] = modelConfig.max_tokens;
+      }
+
+      if (isGpt5) {
+	requestPayload["max_completion_tokens"] = modelConfig.max_tokens;
       }
 
       // add max_tokens to vision model
