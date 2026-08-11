@@ -69,7 +69,7 @@ Meeting Your Company's Privatization and Customization Deployment Requirements:
 - **Private Deployment**: Enterprise-level private deployment supporting various mainstream private cloud solutions, ensuring data security and privacy protection.
 - **Continuous Updates**: Ongoing updates and upgrades in cutting-edge capabilities like multimodal AI, ensuring consistent innovation and advancement.
 
-For enterprise inquiries, please contact: **business@nextchat.dev**
+For enterprise inquiries, please contact: **business@nextchat.club**
 
 ## Screenshots
 
